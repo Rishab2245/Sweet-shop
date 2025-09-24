@@ -1,5 +1,24 @@
 # Dependencies
 node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage
+/.nyc_output
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -11,34 +30,6 @@ pids
 *.pid
 *.seed
 *.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
-# nyc test coverage
-.nyc_output
-
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directories
-jspm_packages/
-
-# Snowpack dependency directory (https://snowpack.dev/)
-web_modules/
-
-# TypeScript cache
-*.tsbuildinfo
 
 # Optional npm cache directory
 .npm
@@ -64,19 +55,16 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
 
-# Next.js build output
-.next
+# Vite
+.vite/
+
+# Next.js (if using Next.js)
+.next/
+out/
 
 # Nuxt.js build / generate output
 .nuxt
@@ -86,8 +74,61 @@ dist
 .cache/
 public
 
-# Vuepress build output
-.vuepress/dist
+# Storybook build outputs
+storybook-static
+
+# TypeScript
+*.tsbuildinfo
+
+# Bundle analyzer
+bundle-analyzer-report.html
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+tmp/
+temp/
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
 
 # Serverless directories
 .serverless/
@@ -111,66 +152,49 @@ public
 .yarn/install-state.gz
 .pnp.*
 
-# Express.js specific
-sessions/
-uploads/
-temp/
-
-# Database
-*.sqlite
-*.sqlite3
-*.db
-
-# Logs
-logs
-*.log
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Temporary files
-tmp/
-temp/
-
-# Build directories
-build/
-dist/
-
-# SSL certificates
-*.pem
-*.key
-*.cert
-
-# Docker
-.dockerignore
-docker-compose.override.yml
-
-# Deployment
-.vercel
+# Local Netlify folder
 .netlify
 
-# Documentation
-docs/build/
+# Capacitor
+android/
+ios/
+.capacitor/
+
+# Electron
+/app/dist
+/release/
+
+# PWA
+workbox-*.js
+sw.js
+
+# Sentry
+.sentryclirc
 
 # Testing
-test-results/
-playwright-report/
-playwright/.cache/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Documentation
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# React specific
+*.orig
 
 # Package managers
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Turborepo
+.turbo/
+
+# Cypress
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
+# Jest
+jest.config.js.snap
