@@ -36,6 +36,7 @@ A full-stack web application for managing a sweet shop, built with React fronten
 ![Order List](docs/screenshots/localhost_2025-09-24_08-56-51_2584.webp)
 ![User Profile](docs/screenshots/localhost_2025-09-24_08-57-05_6124.webp)
 
+
 ## 🛠 Technology Stack
 
 ### Backend
