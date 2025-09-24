@@ -11,7 +11,7 @@
   "keywords": ["sweet", "shop", "management", "api"],
   "author": "",
   "license": "ISC",
-  "description": "Sweet Shop Management System Backend API",
+   "description": "Sweet Shop Management System Backend API",
   "jest": {
     "testEnvironment": "node"
   },

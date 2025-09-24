@@ -25,6 +25,10 @@ A full-stack web application for managing a sweet shop, built with React fronten
 - **Error Handling**: Graceful error handling with user-friendly messages
 - **Responsive UI**: Built with Tailwind CSS and shadcn/ui components
 
+## Screenshots
+
+
+
 ## 🛠 Technology Stack
 
 ### Backend
