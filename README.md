@@ -27,7 +27,14 @@ A full-stack web application for managing a sweet shop, built with React fronten
 
 ## Screenshots
 
-
+![Dashboard View](docs/screenshots/localhost_2025-09-24_08-55-27_4121.webp)
+![Inventory Table](docs/screenshots/localhost_2025-09-24_08-55-43_6166.webp)
+![Purchase Screen](docs/screenshots/localhost_2025-09-24_08-55-53_1360.webp)
+![Sweet Detail](docs/screenshots/localhost_2025-09-24_08-56-06_2129.webp)
+![Admin Controls](docs/screenshots/localhost_2025-09-24_08-56-25_7511.webp)
+![Stock Management](docs/screenshots/localhost_2025-09-24_08-56-38_2318.webp)
+![Order List](docs/screenshots/localhost_2025-09-24_08-56-51_2584.webp)
+![User Profile](docs/screenshots/localhost_2025-09-24_08-57-05_6124.webp)
 
 ## 🛠 Technology Stack
 
