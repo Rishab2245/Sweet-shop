@@ -286,37 +286,6 @@ JWT_SECRET=your_jwt_secret_key_here
 NODE_ENV=production
 DB_PATH=./database.sqlite
 ```
-
-## 🤝 My AI Usage
-
-This project was developed with the assistance of AI tools to demonstrate modern development practices and efficient coding workflows.
-
-### AI Tools Used
-- **GitHub Copilot** - Primary tool for code writing, documentation generation, testing, and development workflow
-- **Claude** - Architecture planning, styling assistance, UI/UX design, and component styling with Tailwind CSS
-- **ChatGPT** - Code optimization and debugging assistance
-- **Gemini** - Problem-solving and additional development support
-- **Perplexity** - Research and best practices validation
-
-### How AI Was Used
-1. **Architecture Planning** - Claude helped design the overall system architecture, database schema, and API structure
-2. **Code Generation** - GitHub Copilot generated boilerplate code for models, controllers, services, and React components
-3. **Documentation** - GitHub Copilot assisted in creating comprehensive documentation and README files
-4. **Testing Strategy** - GitHub Copilot assisted in creating comprehensive test suites with meaningful test cases
-5. **UI/UX Styling** - Claude helped create modern, responsive styling using Tailwind CSS and component design
-6. **Debugging** - ChatGPT helped identify and resolve issues during development
-7. **Best Practices** - AI ensured adherence to modern web development best practices
-
-### AI Impact on Workflow
-The use of AI significantly accelerated the development process by:
-- Reducing boilerplate code writing time by ~70%
-- Providing instant solutions to common development challenges
-- Ensuring consistent code quality and patterns
-- Generating comprehensive test cases through GitHub Copilot
-- Creating professional documentation and styling
-
-The AI assistance allowed focus on higher-level architecture decisions and user experience rather than repetitive coding tasks, resulting in a more polished and feature-complete application.
-
 ## 📝 License
 
 This project is created for educational and demonstration purposes.
